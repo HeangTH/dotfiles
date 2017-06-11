@@ -24,7 +24,7 @@ brew 'readline'
 brew 'spark'
 #brew 'unrar'
 brew 'wget'
-brew 'yarn'
+#brew 'yarn'
 brew 'youtube-dl'
 
 brew 'httpie'
