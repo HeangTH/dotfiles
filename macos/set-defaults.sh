@@ -40,6 +40,13 @@ defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool 
 defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled" -bool true
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
+# Turn Off “Application Downloaded from Internet”
+defaults write com.apple.LaunchServices LSQuarantine -bool NO
+
+# Disable shadow and change to .jpeg of Screen
+defaults write com.apple.screencapture disable-shadow -bool true
+defaults write com.apple.screencapture type jpg
+
 # Specify the preferences directory
 defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.dotfiles/iterm2"
 # Tell iTerm2 to use the custom preferences in the directory
