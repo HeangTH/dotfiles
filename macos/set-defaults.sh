@@ -43,11 +43,14 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 # Turn Off “Application Downloaded from Internet”
 defaults write com.apple.LaunchServices LSQuarantine -bool NO
 
-# Disable shadow and change to .jpeg of Screen
+# Disable shadow and change to .jpeg of Screen Capture
 defaults write com.apple.screencapture disable-shadow -bool true
 defaults write com.apple.screencapture type jpg
 
-# Specify the preferences directory
+# Specify iTerm2's preferences directory
 defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.dotfiles/iterm2"
 # Tell iTerm2 to use the custom preferences in the directory
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
+
+# Specify SecureCRT's preferences directory
+defaults write com.vandyke.SecureCRT.plist "Config Path" -string "~/Qsync/VanDyke/Config"
