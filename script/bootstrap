@@ -137,9 +137,6 @@ install_dotfiles () {
   done
 }
 
-#Create directory for virtualenvwrapper
-mkdir ~/.virtualenvs
-
 setup_gitconfig
 install_dotfiles
 
