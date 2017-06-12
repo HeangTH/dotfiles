@@ -48,6 +48,8 @@ There's a few special files in the hierarchy.
 
 ## install
 
+Need to install Qsync and SecureCRT before run bootstrap
+
 Run this:
 
 ```sh
