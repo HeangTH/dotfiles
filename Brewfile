@@ -53,7 +53,6 @@ cask 'vlc'
 cask 'alfred'
 cask 'angry-ip-scanner'
 cask 'caffeine'
-cask 'chromecast'
 cask 'cyberduck'
 cask 'docker'
 cask 'google-drive'
@@ -66,8 +65,8 @@ cask 'the-unarchiver'
 cask 'virtualbox'
 cask 'winbox'
 
-mas 'Slack',803453959
-mas 'LINE',539883307
-mas 'Pixelmator',407963104
-mas 'Microsoft Remote Desktop',715768417
-mas 'Telegram',747648890
+mas 'Slack', id: 803453959
+mas 'LINE', id: 539883307
+mas 'Pixelmator', id: 407963104
+mas 'Microsoft Remote Desktop', id: 715768417
+mas 'Telegram', id: 747648890
