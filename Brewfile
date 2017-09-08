@@ -63,7 +63,10 @@ cask 'skype'
 cask 'sourcetree'
 cask 'teamviewer'
 cask 'the-unarchiver'
+cask 'vagrant'
+cask 'vagrant-manager'
 cask 'virtualbox'
+cask 'virtualbox-extension-pack'
 cask 'winbox'
 
 mas 'Slack', id: 803453959
