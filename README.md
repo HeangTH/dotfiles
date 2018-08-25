@@ -58,11 +58,14 @@ cd ~/.dotfiles
 **Remark**: Because I use **Synology Drive** to Keep my private keys and **SecureCRT**'s configurations. So there is additional steps needed before run bootstrap. Noted that you can use Dropbox instead of Synology Drive.
 
 1. create symlink from direcotory you store SSH keys to your .ssh in home directory
-```ln -s ~/SynologyDrive/Keys\ and\ Certs/SSH\ Keys/ ~/.ssh```
+```ln -s ~/SynologyDrive/Keys\ and\ Certs/SSH\ Keys/ ~/.ssh
+```
 
 2. add/edit `macos/set-defaults.sh`
-```defaults write com.vandyke.SecureCRT.plist "Config Path" -string "~/SynologyDrive/VanDyke/Config"```
+```defaults write com.vandyke.SecureCRT.plist "Config Path" -string "~/SynologyDrive/VanDyke/Config"
+```
 
+After that, run this:
 ```script/bootstrap
 ```
 
