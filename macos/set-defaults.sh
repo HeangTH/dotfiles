@@ -51,4 +51,4 @@ defaults write com.apple.screencapture disable-shadow -bool true
 defaults write com.apple.screencapture type jpg
 
 # Specify SecureCRT's preferences directory
-defaults write com.vandyke.SecureCRT.plist "Config Path" -string "~/Qsync/VanDyke/Config"
+defaults write com.vandyke.SecureCRT.plist "Config Path" -string "~/SynologyDrive/VanDyke/Config"
