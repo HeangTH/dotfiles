@@ -46,16 +46,24 @@ There's a few special files in the hierarchy.
   but still keep those autoloaded files in your home directory. These get
   symlinked in when you run `script/bootstrap`.
 
-## install
 
-Need to install Qsync and SecureCRT before run bootstrap
+## install
 
 Run this:
 
 ```sh
 git clone https://github.com/HeangTH/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
-script/bootstrap
+```
+**Remark**: Because I use **Synology Drive** to Keep my private keys and **SecureCRT**'s configurations. So there is additional steps needed before run bootstrap. Noted that you can use Dropbox instead of Synology Drive.
+
+1. create symlink from direcotory you store SSH keys to your .ssh in home directory
+```ln -s ~/SynologyDrive/Keys\ and\ Certs/SSH\ Keys/ ~/.ssh```
+
+2. add/edit `macos/set-defaults.sh`
+```defaults write com.vandyke.SecureCRT.plist "Config Path" -string "~/SynologyDrive/VanDyke/Config"```
+
+```script/bootstrap
 ```
 
 This will symlink the appropriate files in `.dotfiles` to your home directory.
