@@ -44,7 +44,7 @@ cask 'google-chrome'
 #cask 'handbrake'
 #cask 'mapbox-studio'
 #cask 'seashore'
-##cask 'slack'
+#cask 'slack'
 #cask 'steam'
 #cask 'transmission'
 #cask 'tunnelbear'
@@ -52,7 +52,7 @@ cask 'vlc'
 
 cask 'alfred'
 cask 'angry-ip-scanner'
-cask 'caffeine'
+#cask 'caffeine'
 cask 'cyberduck'
 cask 'docker'
 cask 'google-backup-and-sync'
@@ -61,7 +61,7 @@ cask 'java'
 cask 'keepassx'
 cask 'skype'
 cask 'teamviewer'
-cask 'the-unarchiver'
+#cask 'the-unarchiver'
 cask 'vagrant'
 cask 'vagrant-manager'
 cask 'virtualbox'
@@ -73,3 +73,5 @@ mas 'LINE', id: 539883307
 mas 'Pixelmator', id: 407963104
 mas 'Microsoft Remote Desktop', id: 715768417
 mas 'Telegram', id: 747648890
+mas 'Amphetamine', id: 937984704
+mas 'The Unarchiver', id: 425424353
