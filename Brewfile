@@ -27,6 +27,7 @@ brew 'wget'
 #brew 'yarn'
 brew 'youtube-dl'
 
+brew 'awscli'
 brew 'httpie'
 brew 'mas'
 brew 'mtr'
@@ -37,8 +38,8 @@ brew 'z'
 
 #cask '1password'
 #cask 'adium'
-cask 'atom'
-cask 'firefox'
+#cask 'atom'
+#cask 'firefox'
 #cask 'garmin-express'
 cask 'google-chrome'
 #cask 'handbrake'
@@ -48,30 +49,41 @@ cask 'google-chrome'
 #cask 'steam'
 #cask 'transmission'
 #cask 'tunnelbear'
+cask 'visual-studio-code'
 cask 'vlc'
 
 cask 'alfred'
+cask 'anaconda'
 cask 'angry-ip-scanner'
 #cask 'caffeine'
 cask 'cyberduck'
 cask 'docker'
-cask 'google-backup-and-sync'
+cask 'go2shell'
+#cask 'google-backup-and-sync'
 cask 'iterm2'
 cask 'java'
 cask 'keepassx'
-cask 'skype'
+cask 'microsoft-teams'
+cask 'pycharm'
+#cask 'skype'
+cask 'slack'
+cask 'spotify'
 cask 'teamviewer'
-#cask 'the-unarchiver'
-cask 'vagrant'
-cask 'vagrant-manager'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
-cask 'winbox'
+cask 'the-unarchiver'
+#cask 'vagrant'
+cask 'vanilla'
+#cask 'vagrant-manager'
+#cask 'virtualbox'
+#cask 'virtualbox-extension-pack'
+#cask 'winbox'
+cask 'zoomus'
 
-mas 'Slack', id: 803453959
+#mas 'Slack', id: 803453959
 mas 'LINE', id: 539883307
 mas 'Pixelmator', id: 407963104
-mas 'Microsoft Remote Desktop', id: 715768417
-mas 'Telegram', id: 747648890
+#mas 'Microsoft Remote Desktop', id: 715768417
+mas 'Microsoft Remote Desktop 10', id: 1295203466
+#mas 'Telegram', id: 747648890
 mas 'Amphetamine', id: 937984704
-mas 'The Unarchiver', id: 425424353
+mas 'Magnet', id: 441258766
+#mas 'The Unarchiver', id: 425424353

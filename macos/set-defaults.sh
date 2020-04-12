@@ -46,9 +46,20 @@ defaults write com.apple.menuextra.battery ShowPercent YES
 # Turn Off “Application Downloaded from Internet”
 defaults write com.apple.LaunchServices LSQuarantine -bool NO
 
-# Disable shadow and change to .jpeg of Screen Capture
+# Disable shadow and change to .jpeg of Screen Capture and disable preview
 defaults write com.apple.screencapture disable-shadow -bool true
 defaults write com.apple.screencapture type jpg
+defaults write com.apple.screencapture show-thumbnail -bool false
+
+#Disable Screen Capture and Empty Trash Sound Effects
+defaults write com.apple.systemsound "com.apple.sound.uiaudio.enabled" -int 0
+
+#Expand save panel by default
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
+
+#Keep folders on top when sorting by name
+defaults write com.apple.finder _FXSortFoldersFirst -bool true
 
 # Specify SecureCRT's preferences directory
 defaults write com.vandyke.SecureCRT.plist "Config Path" -string "~/SynologyDrive/VanDyke/Config"
