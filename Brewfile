@@ -13,7 +13,7 @@ brew 'jq'
 #brew 'libcaca', args: ['with-imlib2']
 #brew 'libgit2'
 brew 'openssl'
-#brew 'node'
+brew 'node'
 brew 'readline'
 #brew 'postgresql'
 #brew 'puma/puma/puma-dev'
@@ -28,10 +28,13 @@ brew 'wget'
 brew 'youtube-dl'
 
 brew 'awscli'
+brew 'ffmpeg'
 brew 'httpie'
 brew 'mas'
 brew 'mtr'
 brew 'python'
+brew 'r'
+brew 'telnet'
 brew 'tree'
 brew 'watch'
 brew 'z'
@@ -64,7 +67,12 @@ cask 'iterm2'
 cask 'java'
 cask 'keepassx'
 cask 'microsoft-teams'
+cask 'notion'
+cask 'postman'
 cask 'pycharm'
+cask 'rstudio'
+cask 'screen'
+cask 'skitch'
 #cask 'skype'
 cask 'slack'
 cask 'spotify'
@@ -87,3 +95,5 @@ mas 'Microsoft Remote Desktop 10', id: 1295203466
 mas 'Amphetamine', id: 937984704
 mas 'Magnet', id: 441258766
 #mas 'The Unarchiver', id: 425424353
+mas 'Todoist', id: 585829637
+
