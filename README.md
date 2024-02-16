@@ -2,6 +2,14 @@
 
 This repo is setup as a baseline for developer to quickly install the application and getting ready to start. The content of this file is largely taken from [Zach Holman's version](https://github.com/holman/dotfiles).
 
+# WTF is Dotfiles?
+
+[Dotfiles](https://dotfiles.github.io/) is a bootstrap script to automate the setup of your softwares, configurations, and environment.
+
+# How can I customize this for my own use?
+
+Fork into your own repo then configure to your heart content.
+
 # Installation
 
 **Remark**: Because I use **Synology Drive** to Keep my private keys. So there is additional steps needed before run **bootstrap**. Noted that you can use Dropbox instead of Synology Drive.
@@ -15,19 +23,16 @@ ln -s ~/SynologyDrive/Keys\ and\ Certs/SSH\ Keys/ ~/.ssh
 2. Run this:
 
 ```sh
-git clone https://github.com/HeangTH/dotfiles.git ~/.dotfiles
+git clone git@github.com:HeangTH/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
 
-# What to do next?
+# What application need to manually install?
 
-- Install Forticlient VPN (https://www.fortinet.com/support/product-downloads)
-- Install RightLang (http://www.rightlang.com/mac/)
+- Forticlient VPN (https://www.fortinet.com/support/product-downloads)
+- RightLang (http://www.rightlang.com/mac/)
 
-# WTF is Dotfiles?
-
-[Dotfiles](https://dotfiles.github.io/) is a bootstrap script to automate the setup of your softwares, configurations, and environment.
 
 # Terminal configuration
 
@@ -39,14 +44,6 @@ You will need to go to the Preference setting of your iTerm2 as follow:
 - Go to Profile > Text > Change Font > Search for `Powerline` > Pick whatever you like but `Noto Mono for Powerline` is pretty nice.
 
 After this you may remove Solarized folder from `~/.dotfiles/zsh` if necessary.
-
-# Why ZSH?
-
-[See for yourself](https://www.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692?ref=http://zpalexander.com/switching-to-zsh/)
-
-# How can I customize this for my own use?
-
-Fork into your own repo then configure to your heart content.
 
 # Python
 
