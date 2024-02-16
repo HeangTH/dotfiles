@@ -1,0 +1,25 @@
+{
+    "title": "Change Caplock to Control+Spacebar",
+    "rules": [
+        {
+            "description": "Change Caplock to Control+Spacebar",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "caps_lock"
+                    },
+                    "to": [
+                        {
+                            "repeat": true,
+                            "key_code": "spacebar",
+                            "modifiers": [
+                                "left_control"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

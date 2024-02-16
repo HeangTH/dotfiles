@@ -1,0 +1,30 @@
+{
+    "title": "Command+0 --> Command+Keypad_0",
+    "rules": [
+        {
+            "description": "Command+0 --> Command+Keypad_0",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "modifiers": {
+                            "mandatory": [
+                                "left_gui"
+                            ]
+                        },
+                        "key_code": "0"
+                    },
+                    "to": [
+                        {
+                            "repeat": true,
+                            "modifiers": [
+                                "left_gui"
+                            ],
+                            "key_code": "keypad_0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
