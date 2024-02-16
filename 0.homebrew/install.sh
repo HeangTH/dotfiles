@@ -5,8 +5,9 @@ if test ! $(which brew); then
     echo "Skipped: Homebrew (missing: ruby, curl and/or git)"
     return
   fi
-
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  # ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 # If installation failed try the following:
