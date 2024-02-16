@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Install MacOS app from App Store
-# mas install 524141863  # Jump Desktop
+mas install 524141863  # Jump Desktop
 mas install 539883307  # Line
 # mas install 585829637  # todoist
 mas install 937984704  # Amphetamine
