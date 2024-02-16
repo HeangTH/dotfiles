@@ -1,0 +1,19 @@
+[
+    {
+        "key": "shift+alt+cmd+n",
+        "command": "extension.createFolder"
+    },
+    {
+        "key": "ctrl+shift+alt+n",
+        "command": "-extension.createFolder"
+    },
+    {
+        "key": "shift+alt+n",
+        "command": "extension.createFile"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-extension.createFile"
+    }
+]
+

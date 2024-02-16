@@ -1,0 +1,191 @@
+#
+# Global .gitignore Flle
+# Reference:  http://help.github.com/ignore-files/
+# Pick: https://github.com/github/gitignore
+#
+
+# use glob syntax. (Shell-style glob)
+syntax: glob
+
+tags*
+
+# switch to regexp syntax. (Regular expression, Python/Perl syntax.)
+syntax: regexp
+
+#
+# Maven
+#
+target/
+
+#
+# Eclipse
+#
+*.classpath
+.settings/
+
+#
+# Compiled source
+#
+#*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+*.pyo
+
+#
+# Packages
+#
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+#*.jar
+*.rar
+*.tar
+*.zip
+*.msi
+
+#
+# Logs and databases
+#
+*.log
+*.sqlite
+
+#
+# OS generated files
+#
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+#
+# MacOS
+#
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+# Icon must end with two \r
+Icon
+# Thumbnails
+._*
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+#
+# Node.js
+#
+node_modules
+/dist
+.npm-debug.log
+/theme
+/.idea
+
+#
+# Testing
+#
+coverage/
+
+#
+# Unit Test / Coverage Reports
+#
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+venv/
+.python-version
+
+#
+# Byte-compiled / optimized / DLL files
+#
+__pycache__/
+*.py[cod]
+*$py.class<Paste>
+
+#
+# Distribution / packaging
+#
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+#lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+#
+# PyInstaller
+#
+*.manifest
+*.spec
+
+#
+# Installer logs
+#
+pip-log.txt
+pip-delete-this-directory.txt
+
+#
+# Translations
+#
+*.mo
+*.pot
+
+#
+# Ipython Notebook
+#
+.ipynb_checkpoints
+
+#
+# Temporary files
+#
+*.bak
+*.swp
+*.swo
+*~
+*#
+
+#
+# IDE files
+#
+.vscode
+.idea
+.iml
+*.sublime-workspace
+
+#
+# Infracost
+#
+.infracost
